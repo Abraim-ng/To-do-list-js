@@ -38,3 +38,22 @@ button {
     font-weight: bolder;
     cursor: pointer ;
 }
+
+@media (max-width: 613px) {
+    .task-list {
+        margin-right: 50px;
+        color: gray;
+    }
+    input {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px 5px 10px 16px;
+        width: 250px;
+        border: none;
+        color: rgb(58, 80, 95);
+        background-color: rgb(48, 47, 47);
+        border-radius: 5px;
+        outline: none;
+    }
+
+}
