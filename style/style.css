@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rgb(58, 80, 95);
+}
+
+
+.Task-Input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-list {
+    margin-right: 400px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: gray;
+}
+
+input {
+    padding: 10px 5px 10px 16px;
+    width: 500px;
+    border: none;
+    color: rgb(58, 80, 95);
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+    outline: none;
+}
+button {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: rgb(172, 71, 255);
+    border-radius: 5px;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer ;
+}
